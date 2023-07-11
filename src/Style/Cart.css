@@ -1,0 +1,436 @@
+.container{
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    min-height: 150px;
+    border-radius: 12px;
+    /* display: flex; */
+    padding: 10px;
+    position: relative;
+}
+
+.bklight{
+    background-color: #f1f3f4;
+    color: black;
+    transition: 200ms;
+
+}
+.bkdark{
+    background-color: #303134;
+    transition: 200ms;
+    color: white;
+}
+
+.cartmiddle{
+    margin-top: 25px;
+    padding-left: 12px;
+    width: 400px;
+    /* text-align: left; */
+    text-align: center;
+    float: left;
+    position: relative;
+    height: 60px;
+    /* border:2px solid red; */
+
+}
+
+.cartleftside{
+    width:200px;
+    /* padding-left: 50px; */
+
+    float: left;
+    position: relative;
+    height: 150px;
+    text-align: center;
+    /* border:2px solid red; */
+}
+
+.cartrightside{
+    margin-top: 25px;
+    width: 200px;
+    justify-content: center;
+    float: left;
+    /* position: relative; */
+    height: 60px;
+    /* padding-bottom: 120px; */
+    /* padding-left: 300px; */
+    /* border:2px solid red; */
+}
+.deletebtn{
+    margin: auto;
+    width: 5%;
+    /* border: 3px solid green; */
+    /* padding: 20px; */
+    padding-right: 80px;
+}
+
+
+.productimage{
+    margin: auto;
+    width: 100%;
+    /* border: 3px solid green; */
+    /* padding: 10px; */
+}
+
+.image{
+    height: 150px;
+    border-radius: 12px;
+}
+
+.quantitybutton{
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    height: 40px;
+    /* margin-top: -5px;
+    margin-right: 15px; */
+    border-radius: 16px;
+    font-weight: bold;
+    line-height:0px;
+  }
+
+  
+  .btnlight:hover{
+    cursor: pointer;
+    background-color: #c6ced6;
+    border: 2px solid grey;
+  }
+  .btndark:hover{
+    cursor: pointer;
+    background-color: #302f2f;
+  }
+.number{
+    /* padding-top: 5px; */
+    padding: 12px;
+    /* padding-right: 12px; */
+}
+  .btndark{
+    background-color: #222222;
+    border: 2px solid grey;
+    color: white;
+    transition: 200ms;
+
+  }
+  .btnlight{
+    background-color: #CFD7DE;
+    border: 2px solid grey;
+    color: rgb(48, 48, 48);
+    transition: 200ms;
+
+  }
+
+  .noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+          -webkit-tap-highlight-color: transparent;
+  }
+  
+  .delbutton {
+      width: 150px;
+      height: 50px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      background: red;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+      background: #e62222;
+      margin-left: 280px;
+      
+
+  }
+
+
+  .noselectclearcart {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+              -webkit-tap-highlight-color: transparent;
+            }
+            
+            .clearcartbtn {
+              width: 150px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #e62222;
+  }
+
+  .clearcartcontainer{
+    margin-top: 20px;
+    margin-left: 2%;
+  }
+  
+  .clearcartbtn, .clearcartbtn span {
+    transition: 200ms;
+  }
+  
+  .clearcartbtn .clearcarttext {
+    transform: translateX(35px);
+    color: white;
+    margin-left: -10px;
+    /* width: 70px; */
+    font-weight: bold;
+  }
+  
+  .clearcartbtn .clearcarticon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(110px);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .clearcartbtn svg {
+    width: 15px;
+    fill: #eee;
+  }
+  
+  .clearcartbtn:hover {
+    background: #ff3636;
+  }
+  
+  .clearcartbtn:hover .clearcarttext {
+    color: transparent;
+  }
+  
+  .clearcartbtn:hover .clearcarticon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(0);
+  }
+  
+  .clearcartbtn:focus {
+    outline: none;
+  }
+  
+  .quantity{
+    display: flex;
+    margin: auto;
+    width: 5%;
+    margin-top: 5px;
+    padding-right: 20px;
+    margin-left: 335px;
+    align-items: center;
+    /* paddin */
+  }
+
+  .delbutton, .delbutton span {
+      transition: 200ms;
+      width: 50px;
+  }
+  
+  .delbutton .text {
+      transform: translateX(35px);
+      color: white;
+      font-weight: bold;
+  }
+
+  .delbutton, .noselect{
+    width: 180px;
+  }
+
+  
+  .delbutton .icon {
+      position: absolute;
+      border-left: 1px solid #c41b1b;
+      transform: translateX(110px);
+      height: 40px;
+      width: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+  }
+  
+  .delbutton svg {
+      width: 15px;
+      fill: #eee;
+  }
+  
+  .delbutton:hover {
+      background: #ff3636;
+  }
+  
+  .delbutton:hover .text {
+      color: transparent;
+  }
+  
+  .delbutton:hover .icon {
+      width: 180px;
+      border-left: none;
+      transform: translateX(0);
+  }
+  
+  .delbutton:focus {
+      outline: none;
+  }
+
+  .total{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    border: 1px solid #777;
+  }
+
+  .totallight{
+    background-color: #f1f3f4;
+    color: black;
+    transition: 200ms;
+
+  }
+  .totaldark{
+    background-color: #303134;
+    color: white;
+    transition: 200ms;
+
+  }
+
+  .containertotal{
+    padding: 20px;
+    padding-left: 25px;
+
+  }
+
+  #checkout{
+    padding: 0px;
+    margin-top: 5px;
+    width: 125px;
+  }
+ 
+  @media only screen and (max-width: 1200px) {
+    .cartleftside {
+      width: 100%;
+      /* float: left; */
+      /* padding: 3%; */
+    }
+    .cartmiddle {
+      width: 100%;
+      /* float: left; */
+      /* margin-left: 0px; */
+    }
+    .cartrightside {
+      width: 100%;
+      /* float: left; */
+      /* margin: 0px; */
+    }
+    .delbutton{
+        margin-left: -4px;
+    }
+    .container{
+        height: 370px;
+    }
+
+    .quantity{
+        margin-left: 43.5%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 945px) {
+    
+    .delbutton{
+        margin-left: -20px;
+    }
+
+    .quantity{
+        margin-left: 40.5%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 685px) {
+    
+    .total{
+        width: 95px;
+        height: 80px;
+
+        /* padding: 0px; */
+    }
+    .containertotal{
+        padding: 0px;
+        padding-top: 10px;
+    
+      }
+
+      #checkout{
+        width: 96px;
+        font-size: 12px;
+      }
+    
+  }
+  @media only screen and (max-width: 818px) {
+    
+    .delbutton{
+        margin-left: -30px;
+    }
+   .quantity{
+        margin-left: 37.5%;
+    }
+    
+  }
+  @media only screen and (max-width: 621px) {
+    
+    .delbutton{
+        margin-left: -37px;
+    }
+   .quantity{
+        margin-left: 32.5%;
+    }
+    
+  }
+  @media only screen and (max-width: 499px) {
+    
+    .delbutton{
+        margin-left: -40px;
+    }
+   .quantity{
+        margin-left: 28.5%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 427px) {
+    
+    
+   .quantity{
+        margin-left: 25.5%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 375px) {
+    
+    .quantity{
+         margin-left: 22.5%;
+     }
+     
+   }
+ 

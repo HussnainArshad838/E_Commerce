@@ -1,0 +1,8 @@
+.buttone{
+    width: 250px;
+}
+
+
+.show-more:hover{
+    cursor: pointer;
+}

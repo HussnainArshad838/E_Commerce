@@ -1,0 +1,45 @@
+.containere{
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    min-height: 150px;
+    border-radius: 12px;
+    /* display: flex; */
+    padding: 10px;
+    padding-top: 130px;
+    position: relative;
+}
+
+.bklighte{
+    background-color: #f1f3f4;
+    color: black;
+    transition: 200ms;
+
+}
+.bkdarke{
+    background-color: #303134;
+    transition: 200ms;
+    color: white;
+}
+
+
+  .buttone{
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    height: 40px;
+    border-radius: 16px;
+    font-weight: bold;
+    line-height:0px;
+    width: 200px;
+    margin-top: 12px;
+  }
+
+  .buttone:hover{
+    cursor: pointer;
+  }
